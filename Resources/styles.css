@@ -1,0 +1,218 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    /* Elimina el subrayado */
+    color: inherit;
+    /* Hereda el color del padre */
+    cursor: pointer;
+    /* Mantiene el puntero de enlace */
+}
+
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Global styles */
+main {
+    font-family: "segoe ui", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;    
+}
+
+/* Header section */
+
+.header-section {
+    border-bottom: rgb(210, 210, 210) solid 1px;    
+    box-shadow: rgb(159, 159, 159) 0px 1px 5px;    
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 64px;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 1200px; 
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;    
+}
+
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.logo-svg {
+    background-color: #4F39F6;
+    border-radius: 30%;    
+    padding: 3px;
+}
+
+.menu-section{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-self: end;
+}
+
+.menu-list {
+    display:flex;
+    flex-direction: row;    
+    gap: 35px;    
+    color: #525E71;
+    font-size: 18px;
+}
+
+.logo-title{    
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
