@@ -293,18 +293,32 @@ html {
 }
 
 
-.hero-img-container img {
-    height: 528px;
+.hero-img-container img {    
+    height: 560px;
     width: auto;
-    border-radius: 16px;    
+    border-radius: 16px;
+    position: relative;
+    z-index: 2;  
 }
 
 .img-box{
-    height: 560px;
-    width: 430px;
+    height: 580px;
+    width: 450px;
     background-color: #CECBF1;
     border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(5deg);
+}
+
+/* About Me Section */
+
+.about-me-container{
+    width: 1200px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
