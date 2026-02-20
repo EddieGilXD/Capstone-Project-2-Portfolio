@@ -322,3 +322,8 @@ html {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+}
