@@ -321,9 +321,14 @@ html {
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-me {
     display: flex;
     flex-direction: row;
 }
+
+.about-me-title h2 {}
