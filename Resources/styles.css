@@ -462,4 +462,22 @@ html {
     width: 32px;
 }
 
+/* Resume Section */
+
+.resume{
+    width: 1200px;
+    margin: auto;
+}
+
+.resume-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-section{
+    text-align: center;
+    gap: 30px;
+}
 
