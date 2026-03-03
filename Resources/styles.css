@@ -465,11 +465,13 @@ html {
 /* Resume Section */
 
 .resume{
-    width: 1200px;
+    width: 100%;
     margin: auto;
+    background-color: #f5f7f9;
 }
 
 .resume-section{
+    max-width: 832px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -478,7 +480,20 @@ html {
 
 .title-section{
     text-align: center;
+    padding-bottom: 64px;
 }
 
+.title-section h2{
+    font-size: 36px;
+    margin-bottom: 18px;
+}
 
+.title-section > p {
+    color: #44556C;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
 
+.title-section > p > a {
+    color: #4F39F6;
+}
