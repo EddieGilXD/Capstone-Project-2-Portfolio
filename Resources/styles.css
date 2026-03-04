@@ -507,3 +507,8 @@ html {
     gap: 15px;
     align-items: center;
 }
+
+.work-experience-content {
+    display: flex; 
+    flex-direction: column;
+} 
