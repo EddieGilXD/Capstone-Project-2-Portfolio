@@ -476,11 +476,14 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-section{
     text-align: center;
     padding-bottom: 64px;
+    
 }
 
 .title-section h2{
@@ -496,4 +499,11 @@ html {
 
 .title-section > p > a {
     color: #4F39F6;
+}
+
+.work-experience-title {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
 }
