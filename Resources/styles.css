@@ -131,11 +131,11 @@ table {
 
 a {
     text-decoration: none;
-    /* Elimina el subrayado */
+    
     color: inherit;
-    /* Hereda el color del padre */
+    
     cursor: pointer;
-    /* Mantiene el puntero de enlace */
+    
 }
 
 a:visited,
@@ -592,4 +592,90 @@ html {
 
 .education-section {
     margin-top: 48px;
+}
+
+/* Projects Section */
+
+.projects-section{
+    width: 100%;
+    background-color: #F8FAFC;
+}
+
+.projects-container{
+    max-width: 1200px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.project-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.project-title h2{
+    font-size: 36px;
+    margin-bottom: 18px;
+    color: #1d293d;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: #4F39F6;
+    text-underline-offset: 15px; 
+    padding-bottom: 15px;
+}
+
+.project-title .sub-title {
+    color: #45556c;
+    font-size: 18px;
+    padding-bottom: 36px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.project {
+    height: 419px;  
+    width: 364px;   
+    display: grid;   
+    grid-template-rows: 1fr 1fr;       
+    border-radius: 15px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+}
+
+.project-img img{
+    width: 100%;
+    object-fit: contain;
+    height: 260px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.project-description-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d293d;
+    padding-bottom: 12px;
+}
+
+.project-summary {
+    font-size: 18px;
+    color: #45556c;
+    line-height: 24px;
+    padding-bottom: 12px;
 }
