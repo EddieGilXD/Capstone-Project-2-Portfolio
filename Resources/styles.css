@@ -146,7 +146,7 @@ a:active {
 }
 
 /* Global styles */
-main {
+main, body {
     font-family: "segoe ui", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -160,7 +160,7 @@ html {
 
 .header-section {
     border-bottom: rgb(210, 210, 210) solid 1px;    
-    box-shadow: rgb(159, 159, 159) 0px 1px 5px;    
+    box-shadow: rgb(159, 159, 159) 0px 1px 5px;        
 }
 
 .header-container {
@@ -678,4 +678,60 @@ html {
     color: #45556c;
     line-height: 24px;
     padding-bottom: 12px;
+}
+
+.project-tecnologies {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.project-tecnologies span{
+    background-color: #ecf0f4;
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;   
+    border-radius: 15px;     
+}
+
+/*footer section */
+
+.footer-section{
+    width: 100%;
+    background-color: #1d293d;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+}
+
+.footer-header h2{
+    font-size: 36px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.footer-header p{
+    color: #90a1b9;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 600px;
+}
+
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
 }
