@@ -700,7 +700,7 @@ html {
 
 .footer-section{
     width: 100%;
-    background-color: #1d293d;
+    background-color: #0F172B;
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
@@ -728,10 +728,58 @@ html {
     font-size: 18px;
     line-height: 28px;
     max-width: 600px;
+    margin-bottom: 38px;
 }
 
 .footer-main{
     display: flex;
     flex-direction: row;
     gap: 32px;
+}
+
+.footer-main .box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1D293D;
+    width: 226px;
+    height: auto;
+    border-radius: 15px;
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.box svg{
+    color: white;
+    background-color: #4f39f6;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.box h3{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box p{
+    color:#90a1b9;
+}
+
+.social-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.social-bar .bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D293D;
+    padding: 12px;
+    border-radius: 50%;
+    color: white;
 }
