@@ -159,6 +159,7 @@ html {
 /* Header section */
 
 .header-section {
+    width: 100%;
     border-bottom: rgb(210, 210, 210) solid 1px;    
     box-shadow: rgb(159, 159, 159) 0px 1px 5px;        
 }
@@ -170,7 +171,7 @@ html {
     align-items: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 1200px; 
+    width: 1250px; 
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;    
@@ -701,8 +702,8 @@ html {
 .footer-section{
     width: 100%;
     background-color: #0F172B;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -782,4 +783,55 @@ html {
     padding: 12px;
     border-radius: 50%;
     color: white;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 1300px) {
+    .header-section{
+        width: 100%;
+    }    
+    .header-container{
+        width: 90%;
+    }
+
+    .body-container {
+        width: 100%;
+        justify-items: center;
+    }
+
+    .hero-section{
+        width: 90%;
+    }
+
+    .about-me-section {
+        width: 100%;
+        justify-items: center;
+    }
+    .about-me-container{
+        width: 90%;
+    }
+
+    .resume {
+        width: 100%;
+    }
+
+    .resume-section {
+        width: 90%;
+    }
+
+    .projects-section {
+        width: 100%;
+    }
+    .projects-container {
+        width: 90%;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+     
+    
 }
